@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/panchagil/PyMesh.svg?branch=travis_ci)](https://travis-ci.org/panchagil/PyMesh)
+[![Build Status](https://travis-ci.org/panchagil/PyMesh.svg?branch=master](https://travis-ci.org/panchagil/PyMesh)
 
 ### About PyMesh ###
 

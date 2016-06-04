@@ -16,6 +16,7 @@ matrix:
         - brew outdated cmake || brew upgrade cmake
         - brew outdated cgal || brew upgrade cgal
         - brew install swig
+      script:
         - pip install -r python/requirements.txt
         - git submodule update --init --recursive
         - mkdir third_party/build

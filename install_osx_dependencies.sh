@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 set -e
+set -x
 
 brew update
 brew outdated cmake || brew upgrade cmake

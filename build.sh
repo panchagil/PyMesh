@@ -1,12 +1,13 @@
 #!/usr/bin/env sh
 set -e
+set -x
 
 # build project
-mkdir build
+mkdir -p build
 cd build
 cmake ..
-make
-make tools
+make -s
+make tools -s
 
 # install python
 cd ..

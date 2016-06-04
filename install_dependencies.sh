@@ -9,6 +9,6 @@ git submodule update --init --recursive
 mkdir third_party/build
 cd third_party/build
 cmake ..
-make
-make install
+make -s
+make install -s
 cd ../..
